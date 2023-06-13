@@ -1,1 +1,3 @@
-# vue-js_labo
+# vue-jsラボ
+
+vue jsを勉強した成果物を置いておく場所です。
