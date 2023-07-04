@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue Sample</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" type="text/javascript"></script>
+  <style>
+  iframe {width: 50vw; height: 40vh; border: 0;}
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div v-for="(video, index) in videos" :key="index">
+      <p>プシューー－－－－－－－－－－－－－－－－－－－－</p>
+      <iframe :src="video.src" controls></iframe>
+      <button @click="changeVideo(index)">Change Video</button>
+    </div>
+  </div>
+  <script src="./url_list_for-vuejs.vue"></script>
+</body>
+</html>
